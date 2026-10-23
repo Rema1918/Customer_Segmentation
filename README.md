@@ -68,6 +68,16 @@ Interpret each cluster using its customer count, average Recency, Frequency, and
 
 Actual segments and findings are determined by running the notebook and reviewing its results.
 
+## ✅ Actual Clustering Results
+
+The analysis selected **2 clusters** based on the highest Silhouette Score among the tested values.
+
+- **Best Silhouette Score:** 0.4329
+- **Cluster 0:** 2,671 customers (61.57%); average Recency: 134.14 days, Frequency: 1.67 invoices, Monetary: 497.74.
+- **Cluster 1:** 1,667 customers (38.43%); average Recency: 25.88 days, Frequency: 8.44 invoices, Monetary: 4,548.26.
+
+Cluster 0 represents customers with lower purchase frequency and spending, while Cluster 1 represents more recently active, frequent, and higher-spending customers. These are preliminary interpretations based on average RFM values.
+
 ## 📁 Project Deliverables
 - `Customer_Segmentation.ipynb` — complete analysis and clustering pipeline.
 - `customer_rfm_clusters.csv` — customer-level RFM values and cluster assignments.
